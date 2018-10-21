@@ -9,6 +9,6 @@ namespace WebTest.Models
     public class SkiContext : DbContext
     {
         public DbSet<Country> Countries { get; set; }
-        public BdSet<Site> Sites { get; set; }
+        public DbSet<Site> Sites { get; set; }
     }
 }
