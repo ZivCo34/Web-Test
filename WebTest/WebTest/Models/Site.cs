@@ -21,5 +21,6 @@ namespace WebTest.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MMM d}", ApplyFormatInEditMode = true)]
         public DateTime SeasonEnd { get; set; }
+        public virtual Country CountryIn { get; set; }
     }
 }

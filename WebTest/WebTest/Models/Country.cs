@@ -11,5 +11,6 @@ namespace WebTest.Models
         public string Name { get; set; }
         public string Language { get; set; }
         public string Currency { get; set; }
+        public virtual ICollection<Site> Sites { get; set; }
     }
 }
