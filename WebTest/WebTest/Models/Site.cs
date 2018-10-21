@@ -9,6 +9,7 @@ namespace WebTest.Models
     public class Site
     {
         public int SiteID { get; set; }
+        public int CountryID { get; set; }
         public string Name { get; set; }
         public int Rank { get; set; }
         public string Location { get; set; }
