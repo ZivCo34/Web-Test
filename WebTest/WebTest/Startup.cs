@@ -61,7 +61,7 @@ namespace WebTest
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Sites}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
